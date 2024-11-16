@@ -1,0 +1,30 @@
+.hidden-left{
+    opacity: 0;
+    filter: blur(1.5rem);
+    transform: translateX(-100%);
+    transition: all 1.25s;
+}
+
+.hidden-left:nth-child(2){
+    transition-delay: 100ms;
+}
+.hidden-left:nth-child(3){
+    transition-delay: 100ms;
+}
+.hidden-left:nth-child(4){
+    transition-delay: 1000ms;
+}
+
+.hidden-right{
+    opacity: 0;
+    filter: blur(1.5rem);
+    transform: translateX(100%);
+    transition: all 1.25s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: 1.75s;
+}

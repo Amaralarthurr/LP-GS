@@ -1,0 +1,14 @@
+.form-container-bg {
+    background-image: url("../imgs/bg-form.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-bg {
+    border-radius: 2rem;
+    border: 1px solid rgba(180, 108, 163, 0.93);
+    background: linear-gradient(231deg, rgba(211, 54, 174, 0.12) 1.4%, rgba(195, 237, 238, 0.05) 50.49%, rgba(211, 54, 174, 0.10) 98.6%);
+    backdrop-filter: blur(17.5px);
+}
