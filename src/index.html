@@ -226,12 +226,21 @@
                 Unidos e
                 depois foi substituído pelo acordo de Paris. EM 04/11/2020 os EUA saíram do acordo de Paris e só
                 retornaram em 2021.
-                Atualmente, a Terra está cerca de 1,1 °C mais quente do que no final do século XIX, e as
+                Atualmente, a Terra está cerca de 1,5 °C mais quente do que no final do século XIX, e as
                 emissões de
                 gases de efeito estufa estão nos níveis mais altos em 2 milhões de anos.
                 A ONU alerta que, sem medidas concretas, o mundo pode chegar a um aumento de <span
                     class="font-bold">3°C.</span></p>
+            <p class="text-gray-200/90 font-text text-lg sm:text-center lg:text-left"> A baixo, temos um gráfico que ilustra a projeção para o aumento da tempertura média global, em relação à média existente durante o período pré-industrial:</p>
         </section>
+
+        <div class="chart-container max-w-2xl flex flex-col mt-12 items-center justify-center gap-4 p-3">
+            <canvas id="line-chart"></canvas>
+
+            <p class="text-gray-200/90 font-text text-lg sm:text-center lg:text-left"> Nele podemos ver em primeira instância, o limite de temperatura imposto pelo acordo de Paris, sendo que esse mesmo limite (preferencialemente sendo de abaixo de 1,5°C), deveria se sustentar até 2100. Contudo, vemos que já no ano de 2024, estamos acima do desejável, sendo que, de acordo com projeções, atinigiremos o limite de 2100 em torno de 70 anos antes. Além disso, se o cenário de emissões se manter <span class="font-bold">intermediário</span>, teremos o terrível número apontado em 2050. Em cenários mais pessimistas, de <span class="font-bold">emissões altas</span>, poderemos chegar ao número de <span class="font-bold">5,7°C</span> acima dos níveis pré-industriais.</p>
+        </div>
+
+        
 
         <section class="max-w-7xl max-h-auto py-32 flex flex-row font-text sm:text-center md:px-8">
             <div class="max-w-full mx-auto flex flex-col justify-start gap-4 items-start lg:text-left">
@@ -348,9 +357,11 @@
         </div>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="./js/scroll.js"></script>
     <script src="./js/sanduiche.js"></script>
+    <script src="./js/grafico.js"></script>
+
 </body>
 
 </html>
