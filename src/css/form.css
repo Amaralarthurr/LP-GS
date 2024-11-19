@@ -12,3 +12,10 @@
     background: linear-gradient(231deg, rgba(211, 54, 174, 0.12) 1.4%, rgba(195, 237, 238, 0.05) 50.49%, rgba(211, 54, 174, 0.10) 98.6%);
     backdrop-filter: blur(17.5px);
 }
+
+.form-bg-yellow{
+    border-radius: 2rem;
+    border: 1px solid #5E7F39;
+    background: linear-gradient(231deg, rgba(94, 127, 57, 0.20) 1.4%, rgba(195, 237, 238, 0.05) 50.49%, rgba(94, 127, 57, 0.20) 98.6%);
+    backdrop-filter: blur(17.5px);
+}
