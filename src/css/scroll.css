@@ -28,3 +28,7 @@
     transform: translateX(0);
     transition: 1.75s;
 }
+
+html{
+    scroll-behavior: smooth;
+}
